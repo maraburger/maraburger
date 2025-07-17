@@ -14,8 +14,8 @@ function preload() {
   }
 
   // Lade die Sounds 01_01.wav bis 01_09.wav
-  for (let i = 2; i <= 9; i++) {
-    let soundname = "sounds/02_0" + i + ".wav";
+  for (let i = 2; i <= 8; i++) {
+    let soundname = "sounds/02_0" + i + ".mp3";
     sounds.push(loadSound(soundname));
   }
 }
