@@ -2,10 +2,9 @@ let images = [];
 let sounds = [];
 let currentImage;
 
-function preload() {
-  for (let i = 1; i <= 8; i++) {
-    let filename = "bilder/01_" + nf(i, 2) + ".png";
-    images.push(loadImage(filename));
+function preload() {  
+  // Lade dein Bild "01.jpg"
+  images.push(loadImage("bilder/01_01/01_08.png"));  
 
   // Lade deine Sounds
   for (let i = 1; i < 4; i++) {
