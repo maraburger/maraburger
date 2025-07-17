@@ -4,7 +4,7 @@ let currentImage;
 
 function preload() {  
   // Lade Bilder (du kannst weitere Bilder hinzufügen, falls gewünscht)
-  images.push(loadImage("bilder/01.png"));  
+  images.push(loadImage("bilder/03-03.png"));  
 
   // Lade Sounds
   for (let i = 1; i < 4; i++) {
